@@ -2,7 +2,7 @@
 
 import getopt
 import sys
-from mst_simple_foreman import simple_foreman
+from simple_foreman import simple_foreman
 
 def main():
     # URL to your Foreman server
