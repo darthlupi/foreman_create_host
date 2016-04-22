@@ -36,13 +36,7 @@ def main():
     env = ''
 
     #Text for input errors and help
-    input_help =  """Script requires the following format:
-        ./mst_create_host.py  \\ 
-        --hostname lindev18 \\
-        --ip 11.48.191.18 \\ #Optional - set for static IP
-        --hostgroup 'MST Base' \\ 
-        --compute_profile 2-Medium \\ 
-        --compute_resource JC-Midrange"""
+    input_help =  """HELP THIS HELP NEEDS TO BE WRITTEN :)"""
     #Attempt to pull in options
     try:
         options, remainder = getopt.getopt(sys.argv[1:], 'o:v', ['hostname=',
